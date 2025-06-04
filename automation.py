@@ -99,15 +99,15 @@ try:
             EC.presence_of_element_located((By.ID, "cdk-overlay-0"))
         )
 
-        # Locate and click the desired option: "1.5 Pro with Deep Research"
+        # Locate and click the desired option: "2.5 Pro with Deep Research"
         desired_option = WebDriverWait(driver, 10).until(
             EC.element_to_be_clickable(
-                (By.XPATH, "//button//span[contains(text(), '1.5 Pro with Deep Research')]")
+                (By.XPATH, "//button//span[contains(text(), '2.5 Pro with Deep Research')]")
             )
         )
         desired_option.click()
 
-        print("Successfully selected '1.5 Pro with Deep Research'")
+        print("Successfully selected '2.5 Pro with Deep Research'")
 
         # Wait for the input field to load
         input_field = WebDriverWait(driver, 10).until(

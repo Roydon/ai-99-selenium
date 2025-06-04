@@ -10,7 +10,7 @@ A Selenium-based automation script that generates comprehensive research reports
   - Industry Trends
   - Company Challenges
   - Competitor Analysis
-- Uses Gemini Pro 1.5 with Deep Research capability
+- Uses Gemini Pro 2.5 with Deep Research capability
 - Automatically saves reports to Google Docs
 - Processes multiple companies in sequence
 - Includes error handling and retry mechanisms
